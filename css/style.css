@@ -38,3 +38,36 @@ h1 img {
 .row {
     margin: 0 !important;
 }
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+.card img {
+    height: 300px;
+    object-fit: cover;
+}
+.card-title {
+    font-weight: 600;
+    color: #6b4f4f;
+}
+.btn-custom {
+    background-color: #d4a373;
+    color: white;
+    transition: background-color 0.3s;
+}
+.btn-custom:hover {
+    background-color: #c97a63;
+}
+
