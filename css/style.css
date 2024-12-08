@@ -38,3 +38,13 @@ h1 img {
 .row {
     margin: 0 !important;
 }
+
+.upper {
+    text-transform: uppercase;
+}
+
+.order-b .btn {
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
