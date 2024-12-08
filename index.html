@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucky Café</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <body>
@@ -31,19 +31,50 @@
         <div class="row">
             <div class="slider p-0">
                 <div class="filter">
-                    <h1 class="text-center">Lucky <img src="images/coffee-icon.png" width="90" alt="Kávé ikon" title="Kávé ikon"> Mi kis kávézónk</h1>
+                    <div class="text-center slogen">Lucky <img src="images/coffee-icon.png" width="90" alt="Kávé ikon" title="Kávé ikon"> Mi kis kávézónk</div>
                     <div class="order-b text-center">
-                        <button type="button" class="btn btn-warning upper">Rendelj Most</button>
+                        <a href="#about-us" class="btn btn-warning upper">Rólunk</a>
                     </div>
                 </div>
             </div>
         </div>
     </header>
     <main>
-        
+        <section>
+            <div class="container us">
+                <h1 class="text-center" id="about-us">Kávézónkról</h1>
+                <p class="text text-center">Egy hangulatos találkozóhely, ahol a minőségi kávé és a barátságos légkör találkozik. Változatos ital- és süteménykínálatunk, kényelmes berendezésünk és mosolygós csapatunk garantálja, hogy minden látogatás különleges élmény legyen. Látogass el hozzánk, és élvezd a nyugalom pillanatait egy csésze finom kávé mellett!</p>
+                <ul class="d-flex p-0">
+                    <li>
+                        <figure>
+                            <img src="images/reggel.png" alt="Óra és egy kávé" title="Reggeli kávé">
+                            <figcaption>Kávézónk a korán kelők kedvence! Már a kora reggeli órákban várunk frissen főzött kávéval, ínycsiklandó péksüteményekkel.</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="images/kavezo.png" alt="Kávézó kényelmes fotelekkel" title="Komfortos kávézó">
+                            <figcaption>Kávézónkban a kényelmet és a meghittséget helyezzük előtérbe. Nálunk mindig otthon érezheted magad!</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="images/kavezo2.png" alt="Modern kávégépekkel felszerelt kávézó" title="Modern kávégépek">
+                            <figcaption>Kávézónkban a minőséget profi felszerelés biztosítja. Valamint baristáink gondosan válogatott alapanyagokkal dolgoznak, hogy minden csésze kávé a legjobb legyen.</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="text-center map">
+            <div class="container">
+                <h2>Elhelyezkedésünk</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2691.041810319922!2d18.39203025666388!3d47.58642882214234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476a40d924e64371%3A0xe6429137c6e95d38!2sFrei%20Cafe%20Tatab%C3%A1nya!5e0!3m2!1shu!2shu!4v1733693946965!5m2!1shu!2shu" width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
     </main>
     <footer>
-        
+
     </footer>
 </body>
 </html>
