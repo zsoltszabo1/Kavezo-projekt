@@ -215,6 +215,7 @@ footer {
 
 .margto{
     margin-top: 50px;
+    margin-bottom: 70px;
 }
 
 .honap-kedvence {
@@ -306,6 +307,13 @@ footer {
   .hatter-kave{
     background-image:url(../images/homebg.jpg);
     background-size:cover;
-    height: 800px;
+    height: 825px;
   }
 
+.margto2{
+    margin-top: 0px ;
+}
+
+.margbo{
+    padding-bottom: 100px;
+}
