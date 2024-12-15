@@ -212,3 +212,100 @@ footer {
     padding-right: 35px;
     font-size: 30px;
 }
+
+.margto{
+    margin-top: 50px;
+}
+
+.honap-kedvence {
+    position: relative;
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.7);
+  }
+  
+  .kedvenc-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .kedvenc-title {
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+    letter-spacing: 1px;
+  }
+  
+  .kedvenc-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .kedvenc-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .kedvenc-image-container {
+    
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  }
+  
+  .kedvenc-img {
+    width: 600px;
+    height: auto;
+    
+  }
+  
+  .kedvenc-content {
+    text-align: center;
+  }
+  
+  .kedvenc-content h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #ffcc00;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  .kedvenc-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #ddd;
+  }
+  
+  .kedvenc-button {
+    background-color: #ffcc00;
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .kedvenc-button:hover {
+    background-color: #e6b800;
+    transform: translateY(-3px);
+  }
+  .hatter-kave{
+    background-image:url(../images/homebg.jpg);
+    background-size:cover;
+    height: 800px;
+  }
+
