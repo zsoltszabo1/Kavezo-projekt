@@ -89,7 +89,7 @@ body {
     text-transform: uppercase;
 }
 
-.order-b .btn {
+.us-b .btn {
     padding: 10px 30px;
     font-weight: 700;
     font-size: 18px;
@@ -319,9 +319,4 @@ footer {
 }
 .americano .card-body {
     height: 199px;
-}
-
-
-.americano .btn-custom {
-    margin-top: 25px;
 }
