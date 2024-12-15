@@ -304,12 +304,11 @@ footer {
     background-color: #e6b800;
     transform: translateY(-3px);
   }
-  .hatter-kave{
+.hatter-kave{
     background-image:url(../images/homebg.jpg);
     background-size:cover;
     height: 825px;
   }
-
 .margto2{
     margin-top: 0px ;
 }
@@ -319,4 +318,8 @@ footer {
 }
 .americano .card-body {
     height: 199px;
+}
+
+.americano .btn-custom {
+    margin-top: 25px;
 }
